@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>三國英雄清單</title>
+</head>
+<body>
+  <h1>三國英雄清單</h1>
+  <p>學號：<%= studentId %></p>
+
+  <ul>
+    <% heroes.forEach(function(hero) { %>
+      <li><%= hero %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
